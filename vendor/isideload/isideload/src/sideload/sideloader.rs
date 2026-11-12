@@ -151,9 +151,9 @@ impl Sideloader {
             .await?;
 
         for app_id in app_ids.iter_mut() {
-            if watch_bundle_ids.contains(&app_id.identifier) {
-                continue;
-            }
+          //  if watch_bundle_ids.contains(&app_id.identifier) {
+          //      continue;
+          //  }
 
             app_id
                 .ensure_group_feature(&mut self.dev_session, &team)
