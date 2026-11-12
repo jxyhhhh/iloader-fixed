@@ -23,7 +23,7 @@ use crate::util::plist::PlistDataExtract;
 use crate::util::storage::{SideloadingStorage, new_storage};
 use crate::{SideloadError, anisette::remote_v3::websocket::AppWebSocket};
 
-pub const DEFAULT_ANISETTE_V3_URL: &str = "https://ani.stikstore.app";
+pub const DEFAULT_ANISETTE_V3_URL: &str = "https://ani.jkcoxson.com";
 
 /// Fixed service endpoints; URL construction performs no network access.
 #[derive(Clone, Copy)]
